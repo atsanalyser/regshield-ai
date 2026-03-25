@@ -13,7 +13,7 @@ import Settings from './pages/Settings';
 function App() {
   return (
     <AppProvider>
-      <Router>
+      <Router basename="/regshield-ai/">
       <Routes>
         <Route path="/" element={<Shell />}>
           <Route index element={<Dashboard />} />
